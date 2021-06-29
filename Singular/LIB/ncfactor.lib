@@ -7196,7 +7196,7 @@ ASSUMPTIONS:
   poly tempgcd;
   poly templhscoeff;
   poly temprhscoeff;
-  for (i = 2; i<=size(rhs);i++)
+  for (i = 1; i<=size(rhs);i++)
   {
     if (gcd(rhs[i][2],lhs[i][2]) == 1)
     {
